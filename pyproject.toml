@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "gradio-okta"
+version = "0.1.0"
+description = ""
+authors = ["Brian Peterson <brian.peterson@cloudshift.cc>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+gradio = "^4.41.0"
+authlib = "^1.3.1"
+python-dotenv = "^1.0.1"
+itsdangerous = "^2.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
